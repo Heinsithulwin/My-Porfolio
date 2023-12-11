@@ -1,0 +1,29 @@
+.navbar,a{
+    flex-direction: row;
+    text-decoration: none;
+}
+a{
+    
+    padding-left: 100px;
+    display: inline-block;
+    color: #0170b9;
+    font-style: inherit;
+    font-size: 21px;
+    font-weight: 400;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition: all;
+}
+a:hover{
+    transition: 2ms;
+}
+
+.image_1{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    justify-content: center;
+    width: 98%;
+    
+}
