@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loopstudio.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Loopstudios Landing Page</title>
+<script>
+    // write your js code here 
+    // 1. create a variable to store the value of the current image
+    // 2. create a function to change the image
+
+    // 3. create a function to change the image when the user clicks on the left arrow
+    // 4. create a function to change the image when the user clicks on the right arrow
+
+    let currentImage = 1;
+    function changeImage() {
+        document.getElementById("image").src = "loopstudios-landing-page-main/images/desktop/image-gallery-"+currentImage+".jpg";
+    }
+
+    function leftArrow() {
+        if(currentImage == 1) {
+            currentImage = 5;
+        } else {
+            currentImage--;
+        }
+        changeImage();
+    }
+
+    function rightArrow() {
+        if(currentImage == 5) {
+            currentImage = 1;
+        } else {
+            currentImage++;
+        }
+        changeImage();
+    }
+
+
+
+</script>
+
+</head>
+<body>
+    <header class="background_img">
+        <nav class="nav_header">
+            <h1 class="nav_left">Loopstudios</h1>
+            <ul class="nav_right">
+                <a href="">About</a>
+                <a href="">Careers</a>
+                <a href="">Events</a>
+                <a href="">Products</a>
+                <a href="">Support</a>
+            </ul>
+        </nav>
+        <h4 class="content">Immersive experiences that deliver</h4>
+    </header>
+    <section id="interactive_section"  class="section_1">
+            <img class="section_img" src="loopstudios-landing-page-main/images/desktop/image-interactive.jpg">
+            <div class="section_para">
+                <h4>The leader in interactive VR</h4>
+                <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+                    projects for some of the best companies around the globe. Our award-winning 
+                    creations have transformed businesses through digital experiences that bind 
+                    to their brand.</p>
+            </div>
+    </section>
+  
+
+</body>
+</html>

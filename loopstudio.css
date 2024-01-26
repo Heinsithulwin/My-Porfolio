@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.background_img{
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-image: url(loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+}
+
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_left{
+    margin-left: 50px;
+    color: white;
+    font-size: 2.2rem;
+    margin-top: 80px;
+}
+
+.nav_right{
+   margin-right: 50px;
+   display: flex;
+   gap: 20px;
+   font-size: 1.1rem;
+   margin-top: 80px;
+}
+.background_img a{
+    color: white;
+    text-decoration: none;
+}
+.content{
+    width: 400px;
+    border: 1px solid white;
+    font-size: 2.8rem;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+#interactive_section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    margin-left: 200px;
+}
+
+.section_para h4{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 50;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.section_para{
+    width: 600px;
+    background-color: white;
+    /* border: 1px solid gray; */
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+}
+.section_img{
+    width: 600px;
+    margin-left: 80px;
+}
+.section_1{
+   position: relative;
+   top: 0;
+   left: 0;
+}
